@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+<body>
+
+  <div class="left-container">
+    <div class="card-front">
+      <img src="./images/card-logo.svg" alt="card-logo">
+      <p class="card-number">0000 0000 0000 0000</p>
+      <p class="card-owner-cvv"><span>Jane Appleseed</span>
+      <span>00/00</span></div>
+    <div class="card-back">
+      <span>000</span>
+    </div>
+  </div>
+
+  <div class="right-container">
+    <div class="form">
+      <label>Cardholder Name</label><br>
+      <input class='focus' type="text" placeholder="e.g. Jane Appleseed"><br>
+      <label>Card Number</label><br>
+      <input class='focus' type="text" placeholder="e.g. 1234 5678 9123 0000"><br>
+      <div><div class="left">
+      <label>Exp. Date (MM/YY)</label><br>
+      <input class='focus' type="text" placeholder="MM">
+      <input class='focus' type="text" placeholder="YY"></div>
+      <div class="right"><label>CVC</label><br>
+      <input class='focus' type="text" placeholder="e.g. 123"></div></div>
+      <button>Confirm</button>
+    </div>
+
+    <div class="thank-you hidden">
+      <img src="./images/icon-complete.svg" alt="right sign">
+      <h3>Thank you!</h3>
+      <p>We've added your card details</p>
+      <button>Continue</button>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
